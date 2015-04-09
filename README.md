@@ -1,2 +1,2 @@
-# AIS
-Automatic Installation scripts
+# AISC
+Automatic Installation scripts and Configuratoin files.
