@@ -1,6 +1,9 @@
 language: python
 
 install:
+  - pip install ordered-set
+  - pip install requests
+  - pip install six
   - pip install https://github.com/clumens/pykickstart/archive/master.tar.gz
 
 script:
