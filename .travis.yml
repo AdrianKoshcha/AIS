@@ -1,9 +1,7 @@
 language: python
 
 install:
-  - pip install ordered-set
-  - pip install requests
-  - pip install six
+  - pip install coverage nose ordered-set polib pylint requests six Sphinx
   - pip install https://github.com/clumens/pykickstart/archive/master.tar.gz
 
 script:
