@@ -1,5 +1,7 @@
 language: python
 
+sudo: false
+
 install:
   - pip install coverage nose ordered-set polib pylint requests six Sphinx
   - pip install https://github.com/clumens/pykickstart/archive/master.tar.gz
