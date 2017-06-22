@@ -1,7 +1,7 @@
 language: python
 
 install:
-  - pip install pykickstart
+  - pip install git+https://github.com/clumens/pykickstart.git
 
 script:
   - ksvalidator -v RHEL7 anaconda-kickstart/lots.ks 
