@@ -5,4 +5,4 @@ install:
   - pip install https://github.com/clumens/pykickstart/archive/master.tar.gz
 
 script:
-  - cd anaconda-kickstart/;for i in *.ks; do ksvalidator $i;done
+  - for i in anaconda-kickstart/*.ks; do ksvalidator $i;done
