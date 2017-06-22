@@ -65,7 +65,6 @@ keybase
 code
 powershell
 kexec-tools
-kexec-tools
 openscap
 openscap-scanner
 scap-security-guide
