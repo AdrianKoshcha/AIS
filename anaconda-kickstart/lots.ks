@@ -48,7 +48,7 @@ clearpart --all --initlabel --drives=sda
 @desktop-debugging
 @directory-client
 @fonts
-@input-methodsa
+@input-methods
 @internet-browser
 @java-platform
 @multimedia
