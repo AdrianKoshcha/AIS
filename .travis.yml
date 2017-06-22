@@ -1,6 +1,7 @@
 language: python
 
 install:
+  - pip install six
   - pip install git+https://github.com/clumens/pykickstart.git
 
 script:
