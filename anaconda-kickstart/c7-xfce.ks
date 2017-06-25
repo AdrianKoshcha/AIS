@@ -1,4 +1,4 @@
-#VERSION=DEVEL
+#VERSION=RHEL7
 # System authorization information
 auth --enableshadow --passalgo=sha512
 # Use network installation
