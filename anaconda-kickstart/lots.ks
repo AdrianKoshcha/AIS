@@ -69,6 +69,8 @@ openscap
 openscap-scanner
 scap-security-guide
 scap-workbench
+lightdm
+lightdm-gtk-greeter
 %end
 
 %addon org_fedora_oscap
