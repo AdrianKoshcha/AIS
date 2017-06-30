@@ -56,6 +56,7 @@ clearpart --all --initlabel --drives=sda
 @networkmanager-submodules
 @print-client
 @x11
+deltarpm
 chrony
 elrepo-release
 kernel-ml
