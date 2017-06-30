@@ -56,6 +56,7 @@ clearpart --drives=sda --all --initlabel
 @print-client
 @x11
 @XFCE
+deltarpm
 lightdm
 lightdm-gtk-greeter
 epel-release
