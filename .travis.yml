@@ -22,4 +22,4 @@ script:
   - for i in anaconda-kickstart/*.ks; do ksvalidator $i;done
   - cd mkosi/stretch-nspawn/;sudo $(which mkosi) summary;cd ../../
   - cd mkosi/zesty-nspawn/;sudo $(which mkosi) summary;cd ../../
-  - cd mkosi/opensuse-nspawn/;sudo $(which mkosi) build;sudo $(which mkosi) clean;cd ../../
+  - cd mkosi/opensuse-nspawn/;sudo $(which mkosi) summary;cd ../../
