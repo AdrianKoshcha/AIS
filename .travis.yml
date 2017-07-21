@@ -21,3 +21,4 @@ install:
 script:
   - for i in anaconda-kickstart/*.ks; do ksvalidator $i;done
   - cd mkosi/stretch-nspawn/;sudo $(which mkosi) summary;cd ../../
+  - cd mkosi/zesty-nspawn/;sudo $(which mkosi) summary;cd ../../
