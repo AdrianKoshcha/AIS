@@ -1,15 +1,15 @@
 language: python
 python:
-        - "3.5"
+  - "3.5"
 
 sudo: true
 
 addons:
-        apt:
-            packages:
-                - debootstrap
-                - xz-utils
-                - dosfstools
+  apt:
+    packages:
+      - debootstrap
+      - xz-utils
+      - dosfstools
 
 
 install:
