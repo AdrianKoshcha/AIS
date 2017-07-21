@@ -1,6 +1,6 @@
 [Distribution]
 Distribution=opensuse
-Release=leap
+Release=42.2
 
 [Output]
 Format=directory
