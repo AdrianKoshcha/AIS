@@ -20,4 +20,5 @@ install:
 
 script:
   - for i in anaconda-kickstart/*.ks; do ksvalidator $i;done
-  - cd mkosi/stretch-nspawn/;sudo /usr/local/bin/mkosi summary;cd ../
+  - which mkosi
+  - cd mkosi/stretch-nspawn/;sudo /usr/local/bin/mkosi summary;cd ../../
