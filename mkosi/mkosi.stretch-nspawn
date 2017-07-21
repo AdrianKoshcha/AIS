@@ -1,0 +1,7 @@
+[Distribution]
+Distribution=debian
+Release=stretch
+
+[Output]
+Format=directory
+Output=stretch-nspawn

@@ -1,0 +1,8 @@
+[Distribution]
+Distribution=ubuntu
+Release=zesty
+
+
+[Output]
+Format=directory
+Output=zesty-nspawn
