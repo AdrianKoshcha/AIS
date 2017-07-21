@@ -1,0 +1,7 @@
+[Distribution]
+Distribution=opensuse
+
+
+[Output]
+Format=directory
+Output=opensuse-nspawn
