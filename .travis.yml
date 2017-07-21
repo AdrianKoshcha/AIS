@@ -7,8 +7,8 @@ addons:
      packages:
       - debootstrap
       - xz-utils
-      - systemd-container
       - dosfstools
+
 
 install:
   - pip install --upgrade pip
