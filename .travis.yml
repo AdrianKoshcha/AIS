@@ -1,11 +1,21 @@
 language: python
 
-sudo: false
+sudo: true
+
+addons:
+  apt:
+     packages:
+      - debootstrap
+      - xz-utils
+      - systemd-container
+      - dosfstools
 
 install:
   - pip install --upgrade pip
   - pip install coverage nose ordered-set polib pylint requests six Sphinx
   - pip install https://github.com/clumens/pykickstart/archive/master.tar.gz
+  - pip install https://github.com/systemd/mkosi/archive/master.tar.gz
 
 script:
+  - cd mkosi/stretch-nspawn/;sudo mkosi summary
   - for i in anaconda-kickstart/*.ks; do ksvalidator $i;done
