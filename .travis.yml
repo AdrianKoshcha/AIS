@@ -19,5 +19,5 @@ install:
   - pip install https://github.com/systemd/mkosi/archive/master.tar.gz
 
 script:
-  - cd mkosi/stretch-nspawn/;sudo mkosi summary;cd ../
   - for i in anaconda-kickstart/*.ks; do ksvalidator $i;done
+  - cd mkosi/stretch-nspawn/;sudo mkosi-3 summary;cd ../
