@@ -1,7 +1,0 @@
-[Distribution]
-Distribution=opensuse
-Release=42.2
-
-[Output]
-Format=directory
-Output=opensuse-nspawn
