@@ -1,0 +1,12 @@
+[Distribution]
+Distribution=ubuntu
+Release=xenial
+Mirror=http://archive.ubuntu.com/ubuntu
+Repositories=http://www.ubnt.com/downloads/unifi/debian
+
+[Output]
+Format=raw_gpt
+Output=unifi.raw
+
+[Packages]
+Packages=openssh-server unifi
