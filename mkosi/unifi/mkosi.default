@@ -1,11 +1,14 @@
 [Distribution]
 Distribution=ubuntu
 Release=xenial
-Mirror=http://archive.ubuntu.com/ubuntu
+Repositories=main restricted universe multivers
 
 [Output]
-Format=tar
-Output=unifi.tar.xz
+Format=raw_squashfs
+Output=unifi.raw
+Verity=yes
+Bootable=yes
 
 [Packages]
-Packages=openssh-server
+Packages=openssh-server gnupg2 dirmngr apt-utils
+WithNetwork=yes

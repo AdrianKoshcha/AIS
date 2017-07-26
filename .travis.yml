@@ -2,23 +2,13 @@ language: python
 python:
   - "3.5"
 
-sudo: true
-
-addons:
-  apt:
-    packages:
-      - debootstrap
-      - xz-utils
-      - dosfstools
+sudo: false
 
 
 install:
   - pip install --upgrade pip
   - pip install coverage nose ordered-set polib pylint requests six Sphinx
   - pip install https://github.com/clumens/pykickstart/archive/master.tar.gz
-  - pip install https://github.com/systemd/mkosi/archive/master.tar.gz
 
 script:
   - for i in anaconda-kickstart/*.ks; do ksvalidator $i;done
-  - cd mkosi/stretch-nspawn/;sudo $(which mkosi) summary;cd ../../
-  - cd mkosi/zesty-nspawn/;sudo $(which mkosi) summary;cd ../../
