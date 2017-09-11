@@ -14,10 +14,8 @@ Automatic Installation Scripts.
 - `mkosi` where my [mkosi](http://0pointer.net/blog/mkosi-a-tool-for-generating-os-images.html) templates are kept.
 - `VyOS` where I store my [VyOS](https://vyos.io/) templates.
 
-## License: ![GPLv3 logo](https://www.gnu.org/graphics/gplv3-127x51.png)
-
-[GPLv3](LICENSE)
+## [License](LICENSE): ![GPLv3 logo](https://www.gnu.org/graphics/gplv3-127x51.png)
 
 ## Authors:
 
-- [Theodore Seán Tubbs](https://github.com/AdrianKoshka)
+- [Adrian Lucrèce Céleste](https://github.com/AdrianKoshka)
