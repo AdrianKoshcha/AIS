@@ -1,0 +1,11 @@
+#!/bin/vbash
+source /opt/vyatta/etc/functions/script-template
+
+configure
+
+set system package repository squeeze components 'main contrib non-free'
+set system package repository squeeze distribution 'jessie'
+set system package repository squeeze url 'http://deb.debian.org/debian'
+
+commit
+save
