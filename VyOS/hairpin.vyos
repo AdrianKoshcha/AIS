@@ -1,0 +1,14 @@
+#!/bin/vbash
+source /opt/vyatta/etc/functions/script-template
+
+configure
+
+set nat source rule 110 description 'NAT Reflection: INSIDE'
+set nat source rule 110 destination address '192.168.200.0/24'
+set nat source rule 110 outbound-interface 'eth1'
+set nat source rule 110 source address '192.168.200.0/24'
+set nat source rule 110 translation address 'masquerade'
+
+commit
+save
+exit
