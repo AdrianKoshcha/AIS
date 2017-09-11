@@ -64,4 +64,3 @@ set interfaces ethernet eth0 firewall local name 'OUTSIDE-LOCAL'
 # save changes
 commit-confirm 1
 save
-exit
