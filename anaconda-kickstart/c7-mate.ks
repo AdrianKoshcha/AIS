@@ -2,8 +2,8 @@
 # System authorization information
 auth --enableshadow --passalgo=sha512
 # Use network installation
-url --url="http://mirror.rit.edu/centos/7/os/x86_64/"
-repo --name=epel --baseurl=http://mirror.rit.edu/epel/7/x86_64/
+url --url="http://mirror.gignet.com/centos/7/os/x86_64/"
+repo --name="epel" --mirrorlist="https://mirrors.fedoraproject.org/metalink?repo=epel-7&arch=$basearch"
 repo --name=google-chrome --baseurl=https://dl.google.com/linux/chrome/rpm/stable/x86_64
 # Use graphical install
 graphical

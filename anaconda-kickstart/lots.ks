@@ -2,7 +2,7 @@
 # System authorization information
 auth --enableshadow --passalgo=sha512
 # Use network installation
-url --url="http://mirror.rit.edu/centos/7/os/x86_64/"
+url --url="http://mirror.gigenet.com/centos/7/os/x86_64/"
 repo --name="epel" --mirrorlist="https://mirrors.fedoraproject.org/metalink?repo=epel-7&arch=$basearch"
 repo --name="packages-microsoft-com-prod" --baseurl="https://packages.microsoft.com/rhel/7/prod/"
 repo --name="elrepo-kernel" --baseurl="https://elrepo.org/linux/kernel/el7/x86_64/"
