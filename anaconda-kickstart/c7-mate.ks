@@ -32,7 +32,7 @@ firewall --enabled --ssh
 xconfig  --startxonboot
 # System bootloader configuration
 bootloader --append=" crashkernel=auto" --location=mbr --boot-drive=sda
-autopart --type=lvm
+autopart --type=lvm --nohome
 # Clear the Master Boot Record
 zerombr
 # Partition clearing information

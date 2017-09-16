@@ -35,7 +35,7 @@ user --groups=wheel --name=ttubbs --password=$6$CNMu6uxixs2PBC7t$6R.D/22kxDqI.SI
 xconfig  --startxonboot
 # System bootloader configuration
 bootloader --append=" crashkernel=auto" --location=mbr --boot-drive=sda
-autopart --type=lvm
+autopart --type=lvm --nohome
 # Clear the Master Boot Record
 zerombr
 # Partition clearing information
