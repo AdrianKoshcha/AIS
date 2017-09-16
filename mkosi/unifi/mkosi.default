@@ -4,10 +4,8 @@ Release=xenial
 Repositories=main restricted universe multivers
 
 [Output]
-Format=raw_squashfs
-Output=unifi.raw
-Verity=yes
-Bootable=yes
+Format=dir
+Output=unifi-nspawn
 
 [Packages]
 Packages=openssh-server gnupg2 dirmngr apt-utils
