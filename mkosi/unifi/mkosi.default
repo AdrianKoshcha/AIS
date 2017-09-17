@@ -4,7 +4,7 @@ Release=xenial
 Repositories=main restricted universe multivers
 
 [Output]
-Format=dir
+Format=directory
 Output=unifi-nspawn
 
 [Packages]
