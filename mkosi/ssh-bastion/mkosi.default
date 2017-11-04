@@ -6,13 +6,11 @@ Release=26
 Bootable=true
 Format=raw_gpt
 Output=ssh.img
-KernelCommandLine=rhgb quiet selinux=1 rw
 
 [Packages]
-Packages=openssh-server openssh-clients gssproxy cracklib-dicts selinux-policy
+Packages=openssh-server openssh-clients gssproxy cracklib-dicts
 ExtraTrees=base
 WithNetwork=true
 
 [Partitions]
-RootSize=600M
 ESPSize=100M

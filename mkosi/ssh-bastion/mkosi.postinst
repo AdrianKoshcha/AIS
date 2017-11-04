@@ -7,7 +7,8 @@ ssh-keygen -o -a 100 -t ed25519 -f /home/bastion/.ssh/id_ed25519
 chown bastion:bastion -R /home/bastion
 chmod 700 /home/bastion/.ssh
 chmod 600 /home/bastion/.ssh/authorized_keys
-chmod 600 /home/bastion/.ssh/id_25519
-chmod 644 /home/bastion/.ssh/id_25519.pub
+chmod 600 /home/bastion/.ssh/id_ed25519
+chmod 644 /home/bastion/.ssh/id_ed25519.pub
 systemctl enable systemd-networkd
-cat /home/bastion/.ssh/id_25519.pub
+dnf clean all
+cat /home/bastion/.ssh/id_ed25519.pub
