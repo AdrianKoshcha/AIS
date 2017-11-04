@@ -1,0 +1,16 @@
+[Distribution]
+Distribution=fedora
+Release=26
+
+[Output]
+Bootable=true
+Format=raw_gpt
+Output=ssh.img
+
+[Packages]
+Packages=openssh-server openssh-clients gssproxy cracklib-dicts
+ExtraTrees=base
+WithNetwork=true
+
+[Partitions]
+ESPSize=100M
