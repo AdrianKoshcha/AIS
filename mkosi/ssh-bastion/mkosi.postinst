@@ -1,6 +1,5 @@
 #!/usr/bin/env bash
 useradd -m bastion -s /bin/bash
-passwd bastion
 mkdir /home/bastion/.ssh
 touch /home/bastion/.ssh/known_hosts
 echo "ssh-ed25519 AAAAC3NzaC1lZDI1NTE5AAAAIOigqFhU9Ii+xXQUh1MZYuiI/V38mtPrQg6pswEdSPGG adrian@AM1M-S2H" > /home/bastion/.ssh/authorized_keys
