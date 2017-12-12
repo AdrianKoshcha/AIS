@@ -1,0 +1,13 @@
+# MySQL container
+MYSQL_ROOT_PASSWORD=mysql_root_password
+MYSQL_PASSWORD=mayan_password
+MYSQL_DATABASE=mayan_db
+MYSQL_USER=mayan_user
+
+# Mayan container
+MAYAN_DATABASE_DRIVER=django.db.backends.mysql
+MAYAN_DATABASE_NAME=mayan_db
+MAYAN_DATABASE_USER=mayan_user
+MAYAN_DATABASE_PASSWORD=mayan_password
+MAYAN_DATABASE_HOST=mayan-mysql
+MAYAN_DATABASE_PORT=3306

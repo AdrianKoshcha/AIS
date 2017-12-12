@@ -1,0 +1,29 @@
+version: "3.1"
+services:
+        mayan-edms:
+                image: mayanedms/mayanedms:2.7.3
+                depends_on:
+                        - mayan-mysql
+                restart: always
+                env_file: envfile
+                ports:
+                        - 8009:80
+                volumes:
+                        - mayan_data:/var/lib/mysql:Z
+                networks:
+                        - mayan
+
+        mayan-mysql:
+                image: docker.io/mysql
+                env_file: envfile
+                restart: always
+                networks:
+                        mayan:
+                volumes:
+                        - mayan_mysql:/var/lib/mysql:Z
+volumes:
+        mayan_mysql:
+        mayan_data:
+networks:
+        mayan:
+                driver: bridge
