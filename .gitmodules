@@ -1,0 +1,3 @@
+[submodule "clc"]
+	path = clc
+	url = https://github.com/AdrianKoshka/clc.git
