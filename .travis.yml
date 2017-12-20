@@ -1,6 +1,6 @@
 language: python
 python:
-  - "3.5"
+  - "3.6"
 go:
   - "1.7"
 
@@ -17,4 +17,4 @@ install:
 
 script:
   - for i in anaconda-kickstart/*.ks; do ksvalidator $i;done
-  - for in in clc/*.yaml;do ct -strict -infile ${i}.yaml;done
+  - for i in clc/*.yaml;do ct -strict -infile ${i}.yaml;done
