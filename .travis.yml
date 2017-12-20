@@ -17,4 +17,4 @@ install:
 
 script:
   - for i in anaconda-kickstart/*.ks; do ksvalidator $i;done
-  - for i in clc/*.yaml;do ct -strict -infile ${i}.yaml;done
+  - for i in clc/*.yaml;do ct -strict -infile ${i};done
