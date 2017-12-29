@@ -1,4 +1,6 @@
 #!/bin/vbash
+# Copyright 2017, Adrian Lucrèce Céleste and the AIS contributors
+# SPDX-License-Identifier: GPL-3.0+
 source /opt/vyatta/etc/functions/script-template
 
 configure

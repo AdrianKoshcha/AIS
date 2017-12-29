@@ -1,4 +1,6 @@
 #!/usr/bin/env bash
+# Copyright 2017, Adrian Lucrèce Céleste and the AIS contributors
+# SPDX-License-Identifier: GPL-3.0+
 
 apt-key adv --keyserver keyserver.ubuntu.com --recv 06E85760C0A52C50
 #apt-key adv --keyserver keyserver.ubuntu.com --recv 7F0CEB10
