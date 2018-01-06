@@ -1,5 +1,5 @@
 #!/usr/bin/env bash
-# Copyright 2017, Adrian Lucrèce Céleste and the AIS contributors
+# Copyright 2017-2018, Adrian Lucrèce Céleste and the AIS contributors
 # SPDX-License-Identifier: GPL-3.0+
 useradd -m bastion -s /bin/bash
 mkdir /home/bastion/.ssh

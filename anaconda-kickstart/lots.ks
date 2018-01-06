@@ -1,5 +1,5 @@
 #version=RHEL7
-# Copyright 2017, Adrian Lucrèce Céleste and the AIS contributors
+# Copyright 2017-2018, Adrian Lucrèce Céleste and the AIS contributors
 # SPDX-License-Identifier: GPL-3.0+
 # System authorization information
 auth --enableshadow --passalgo=sha512
